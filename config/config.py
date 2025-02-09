@@ -18,10 +18,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "18284121"))
+API_HASH = getenv("API_HASH", "394d0f461eca6d8e6dad237e2a489502")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5958187350:AAGns5YG_o-2OegAjeaGeGPWolrNsb4Q4YQ")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -37,7 +37,7 @@ OWNER_ID = int(getenv("OWNER_ID", None))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("BOT_ID", "5958187350")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
