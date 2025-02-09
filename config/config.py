@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", YuYanMusicBot)
 
 OWNER_ID = int(getenv("OWNER_ID", None))
 
@@ -89,7 +89,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 COOKIES = getenv("COOKIES", None)
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "1ApWapzMBu5bJ8avecTRF44JFkNWjI93GXcHxH52CI_bBkEST4VodeK1LjBawtBziNR3-Dj3jZSFBIZdmXhQ1eBmX_W628wwMnlDwSvgKx1LFJL1zqa_ANXk-bsb3u345om_Kif0LdtrpjZvecMqdt_khe70oxcrHHfoYsWRp1LsiZf6DIJXUdeob_12tKkPIWyvlVtgkmTzSTg-wBb2Q1ktUQvmypIAHJK_rj2vBrbdDKOFevSLKzEjDjdzMLuhrw62VgR0gSk9FYnmXX7bpQcAf_BDEtJhCu4-qRIn3fVjZh75vBCrpwSa9UAdqjcC-W2cuZl-Eq_R4ukSFO7O_8t26g-f6uoQ=")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
